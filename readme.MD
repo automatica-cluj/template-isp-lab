@@ -39,5 +39,16 @@ Prin comanda 'mvn' maven va rula 'default maven goals' setate in fisierul pom.xm
 Alternativ, comenzile anterioare pot fi rulate utilizand mvn wrapper (https://github.com/takari/maven-wrapper) utilizand comanda mvnw in cazul in care maven nu este instalat. Exemplu:
 
     mvnw test 
+    
+## Generarea documentatiei javadoc
+
+Pentru a genera documentatia proiectului se va executa comanda:
+
+    mvn javadc:javadoc
+   
+## Uneltele laborator ISP
+
+![GitHub Logo](docs/ClassDiagram1.jpg)
+     
 
 
