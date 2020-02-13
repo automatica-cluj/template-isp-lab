@@ -16,7 +16,7 @@ public class ExampleTest {
 
     @Test
     public void testSubstract(){
-        assertEquals("Should substract 2 numbers", 5, Example.add(15,10));
+        assertEquals("Should substract 2 numbers", 5, Example.substract(15,10));
     }
 
 }
